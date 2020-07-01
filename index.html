@@ -261,6 +261,28 @@
       </div>
     </div>
     <hr>
+    <!-- Netlify form -->
+    <div class="container-fluid text-center">
+      <form name="contact" method="POST" class="col-6 m-auto form-group" data-netlify="true">
+        <p>
+          <label>Your Name: <input class="form-control" type="text" name="name" /></label>   
+          <label>Your Email: <input class="form-control" type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea class="form-control" name="message"></textarea></label>
+        </p>
+        <p>
+          <button class="btn btn-success btn-lg" type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+    
     <!-- Connect -->
     <div class="container-fluid padding">
       <div class="row text-center padding">
