@@ -185,7 +185,7 @@ hr.light-100{
 }
 @media (max-width: 1920px){
 .carousel-inner img{
-        width: auto;
+        width: 100%;
         height: 850px; 
     }
 }
