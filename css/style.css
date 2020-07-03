@@ -288,9 +288,7 @@ hr.light-100{
     .contact-p{
         font-size: medium;
     }
-    .send-msg{
-        
-    }
+   
     .send-msg label{
         font-size: medium;
     }
@@ -308,7 +306,11 @@ hr.light-100{
         font-weight: 400;
         padding-bottom: .2rem;
     }
-    .carousel-caption .btn{
+    .carousel-caption, .text-center .btn{
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .fixed-text .btn{
         font-size: 90%;
         padding: 4px 8px;
     }
@@ -322,13 +324,13 @@ hr.light-100{
         font-size: 2rem;
         padding: .7rem;
     } 
-        .fixed-wrap #fixed{
-            background-image: url('/img/door.jpg');
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 450px;
-            padding: 0%;
-        }
+    .fixed-wrap #fixed{
+        background-image: url('/img/door.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        padding: 0%;
+        
     }
 }
