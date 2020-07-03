@@ -275,7 +275,7 @@ hr.light-100{
 }
 @media(max-width: 576px){
     .carousel-caption{
-        top: 70%;
+        top: 50%;
         
     }
     .carousel-inner img{
