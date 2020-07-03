@@ -86,16 +86,16 @@ html, body{
     margin-top: .3rem ;
     margin-bottom: 1rem;
 }
-.fa-code{
-    color: #e54d26;
+.fa-door-open{
+    color: #ceea31;
 }
-.fa-coffee{
-    color: #563d7c;
+.fa-bath{
+    color: #ceea31;
 }
-.fa-truck{
-    color: #2163af;
+.fa-th-large{
+    color: #ceea31;
 }
-.fa-code, .fa-coffee, .fa-truck{
+.fa-door-open, .fa-bath, .fa-th-large{
     font-size: 4em;
     margin: 1rem;
 }
