@@ -67,6 +67,9 @@ html, body{
     border-radius: 10px;
 
 }
+.btn-outline-light{
+    border-radius: 10px;
+}
 .btn-primary:hover{
     background-color: #ceea31;
     border: 1px solid #393e46;
@@ -120,6 +123,7 @@ html, body{
 .fixed-text{
     transform: translate(0%,70%);
 }
+
 .card-img-top:hover{
     transition: 300ms ease;
     width: 95%;
@@ -277,6 +281,18 @@ hr.light-100{
     .carousel-caption{
         top: 50%;
         
+    }
+    .contact-text{
+        font-size: x-large;
+    }
+    .contact-p{
+        font-size: medium;
+    }
+    .send-msg{
+        
+    }
+    .send-msg label{
+        font-size: medium;
     }
     .carousel-inner img{
         width: 100%;
