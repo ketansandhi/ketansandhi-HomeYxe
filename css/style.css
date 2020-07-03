@@ -99,7 +99,10 @@ html, body{
 .fa-th-large{
     color: #ceea31;
 }
-.fa-door-open, .fa-bath, .fa-th-large{
+.fa-map-marked-alt{
+    color: #ceea31;
+}
+.fa-door-open, .fa-bath, .fa-th-large, .fa-map-marked-alt{
     font-size: 4em;
     margin: 1rem;
 }
@@ -116,6 +119,12 @@ html, body{
 }
 .fixed-text{
     transform: translate(0%,70%);
+}
+.card-img-top:hover{
+    transition: 300ms ease;
+    width: 95%;
+    transform: translate(2.5%,2.5%);
+    box-shadow: 1px 1px 5px 5px #ceea31;
 }
 .google-maps {
     position: relative;
