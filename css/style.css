@@ -363,12 +363,18 @@ hr.light-100{
         padding: .7rem;
     } 
     .fixed-wrap #fixed{
-        background-image: url('/img/door.jpg');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-position-x: center;
         height: 450px;
         padding: 0%;
         
+    }
+    .card-img-overlay h2{
+        font-size: medium;
+        margin: 0em;
+    }
+    .card-img-overlay p{
+        font-size: x-small;
+        margin: 0em;
+        padding: 0em;
     }
 }
