@@ -15,7 +15,7 @@ html, body{
 /*TO change the color of navbar on scroll*/
 
 .bg-light {
-    background: linear-gradient(.25turn, #393e46, 60%,#ceea31) !important;
+    background: linear-gradient(#393e46, transparent) !important;
  
 }
 .scrolled{
@@ -127,11 +127,26 @@ html, body{
     transform: translate(0%,70%);
 }
 
+.card-img-overlay{
+    margin-top: 30%;
+    margin-bottom: 10%;
+    background-color: #656c773b;
+    float: left;
+    width: 80%;
+    color: white;
+    border-radius: 5px;
+}
+.card-img-overlay:hover {
+    background-color: #ceea31;
+    color: black;
+
+}
 .card-img-top:hover{
-    transition: 300ms ease;
-    width: 95%;
-    transform: translate(2.5%,2.5%);
+    transition: 300ms ease-in-out;
+    width: 103%;
+    transform: translate(-1.5%,-1.5%);
     box-shadow: 1px 1px 5px 5px #ceea31;
+    background-color: black;
 }
 .google-maps {
     position: relative;
